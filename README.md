@@ -48,7 +48,3 @@ You can modify the following variables in `main.py` to customize the script's be
 ## License
 
 [MIT License](LICENSE)
-
-## License
-
-[MIT License](LICENSE)
