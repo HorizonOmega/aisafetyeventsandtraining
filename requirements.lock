@@ -12,7 +12,10 @@
 -e file:.
 annotated-types==0.7.0
     # via pydantic
+anthropic==0.39.0
+    # via aisafetyeventsandtraining
 anyio==4.4.0
+    # via anthropic
     # via httpx
     # via openai
 certifi==2024.6.2
@@ -22,6 +25,7 @@ certifi==2024.6.2
 charset-normalizer==3.3.2
     # via requests
 distro==1.9.0
+    # via anthropic
     # via openai
 exa-py==1.0.12
     # via aisafetyeventsandtraining
@@ -30,22 +34,35 @@ h11==0.14.0
 httpcore==1.0.5
     # via httpx
 httpx==0.27.0
+    # via anthropic
     # via openai
 idna==3.7
     # via anyio
     # via httpx
     # via requests
+inflection==0.5.1
+    # via pyairtable
+jiter==0.7.1
+    # via anthropic
 openai==1.35.6
     # via exa-py
+pyairtable==2.3.6
+    # via aisafetyeventsandtraining
 pydantic==2.7.4
+    # via anthropic
     # via openai
+    # via pyairtable
 pydantic-core==2.18.4
     # via pydantic
 python-dotenv==1.0.1
     # via aisafetyeventsandtraining
+ratelimit==2.2.1
+    # via aisafetyeventsandtraining
 requests==2.32.3
     # via exa-py
+    # via pyairtable
 sniffio==1.3.1
+    # via anthropic
     # via anyio
     # via httpx
     # via openai
@@ -54,9 +71,12 @@ tenacity==8.5.0
 tqdm==4.66.4
     # via openai
 typing-extensions==4.12.2
+    # via anthropic
     # via exa-py
     # via openai
+    # via pyairtable
     # via pydantic
     # via pydantic-core
 urllib3==2.2.2
+    # via pyairtable
     # via requests
